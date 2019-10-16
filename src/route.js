@@ -1,7 +1,22 @@
 import { Router } from 'express';
 
+import UserController from './app/controllers/UserController';
+import SessionController from './app/controllers/SessionController';
+
+import authMiddleware from './app/middlewares/auth';
+
 const routes = new Router();
 
-routes.get('/', (req, res) => res.json({ hello: 'stack' }));
+routes.get('/', async (req, res) => {
+  res.json({ m: 'ola' });
+});
+
+routes.post('/users', UserController.store);
+routes.post('/sessions', SessionController.store);
+
+// middleware de autenticação
+routes.use(authMiddleware);
+
+routes.put('/users', UserController.update);
 
 export default routes;
