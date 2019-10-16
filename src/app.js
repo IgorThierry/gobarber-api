@@ -1,5 +1,7 @@
-import express from "express";
-import routes from "./route";
+/* eslint-disable linebreak-style */
+import express from 'express';
+
+import routes from './route';
 
 class App {
   constructor() {
