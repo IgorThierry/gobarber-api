@@ -30,8 +30,6 @@ A aplicação consiste em um Back-end feito em NodeJS, uma aplicação Web com R
 
 - Yarn;
 - NodeJS;
-- ReactJS;
-- React Native;
 - Redux;
 - ESLint + Prettier + EditorConfig;
 - Reactotron;
