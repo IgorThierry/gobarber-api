@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-  Aplicação GoBarber
+  RESTful API GoBarber
 </h1>
 
 <p align="center">Aplicação Back-end com NodeJS</p>
@@ -29,7 +29,14 @@ A aplicação consiste em um Back-end feito em NodeJS, uma aplicação Web com R
 ## 🔧 Tecnologias
 
 - Yarn;
+- Docker;
+- PostgreSQL;
 - NodeJS;
+- ExpressJS;
+- Sequelize;
+- JWT;
+- Nodemailer;
+- Handlebars;
 - Redux;
 - ESLint + Prettier + EditorConfig;
 - Reactotron;
