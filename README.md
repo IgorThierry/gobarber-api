@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="GoBarber" src="https://github.com/IgorThierry/gobarber-api/blob/master/src/assets/images/logo.svg?raw=true" width="300px"/>
+    <img alt="GoBarber" src="https://github.com/IgorThierry/gobarber-api/blob/master/src/assets/images/gobarber-header.svg?raw=true" width="300px"/>
 </p>
 
 <h1 align="center">
