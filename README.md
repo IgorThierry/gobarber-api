@@ -39,7 +39,7 @@ A aplicação consiste em um Back-end feito em NodeJS, uma aplicação Web com R
 Após clonar o repositório, acesse a pasta do projeto;
 
 ```
-$ cd backend
+$ cd GoBarberApi
 ```
 
 Em seguida, instale as dependências;
