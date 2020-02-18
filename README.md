@@ -51,7 +51,7 @@ $ yarn
 Inicie o projeto;
 
 ```
-$ yarn start
+$ yarn dev
 ```
 
 ## 🚧 **Em Desenvolvimento...**
