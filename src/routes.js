@@ -12,6 +12,8 @@ import ScheduleController from './app/controllers/ScheduleController';
 import NotificationController from './app/controllers/NotificationController';
 import AvailableController from './app/controllers/AvailableController';
 
+import validateUserStore from './app/validators/UserStore';
+
 import authMiddleware from './app/middlewares/auth';
 
 const routes = new Router();
@@ -21,7 +23,7 @@ routes.get('/', async (req, res) => {
   res.json({ m: 'ola' });
 });
 
-routes.post('/users', UserController.store);
+routes.post('/users', validateUserStore, UserController.store);
 routes.post('/sessions', SessionController.store);
 
 // middleware de autenticação

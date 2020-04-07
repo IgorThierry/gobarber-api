@@ -9,7 +9,7 @@ import * as Sentry from '@sentry/node';
 
 import sentryConfig from './config/sentry';
 
-import routes from './route';
+import routes from './routes';
 
 import './database';
 
